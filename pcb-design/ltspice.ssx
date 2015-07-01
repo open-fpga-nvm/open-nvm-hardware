@@ -1,0 +1,102 @@
+Amp||3
+AND 2||3
+AND 3||4
+AND 4||5
+buf||2
+Buffer (tri-state)||3
+Capacitor||2
+CCCS||4
+CCVS||4
+Condition||1
+CSwitch||2
+diffschmtbuf||3
+diffschmtinv||3
+Diode||2
+DProbe||2
+dtff||6
+DType||6
+EFUNC2||6
+EPOLY2||4
+Ground||1
+IGBT||3
+Inductor||2
+Instrument Amp 7||7
+Instrument Amp 8||8
+inverter||2
+IProbe||1
+KCORE||0
+KCORE 1||0
+KCORE 2||0
+KCORE 3||0
+LT1184F||12
+LVERT||2
+mesfet||3
+modulate||3
+modulate2||4
+Module Port||1
+N-channel||3
+N-Channel Therm 5||5
+NAND 2||3
+NAND 3||4
+NAND 4||5
+NMOS3||3
+NMOS4||4
+NOR 2||3
+NOR 3||4
+NOR 4||5
+NPN||3
+NPNdarl||3
+Opamp||5
+Opamp_7||7
+Opamp_c||6
+Opamp_d_o_l||8
+Opamp_e||6
+Opamp_g||6
+Opamp_OS||7
+OR 2||3
+OR 3||4
+OR 4||5
+P-channel||3
+P-Channel Therm 5||5
+phidet||3
+PMOS3||3
+PMOS4||4
+PNP||3
+PNPdarl||3
+POWRAIL+||1
+POWRAIL-||1
+Reg||3
+Reg 6||6
+Reg Adj||3
+Reg BA||5
+Reg SA||5
+Reg SB||5
+Resistor Box||2
+Resistor Z||2
+sample||5
+schmtbuf||2
+schmtinv||2
+Schottky||2
+SimControl||0
+SmallTerm||1
+srff||4
+Switch||4
+Terminal||1
+Therm Network||2
+Transmission Line||4
+unused_pins_4||4
+urc||3
+Varicap||2
+varistor||3
+VCCS||4
+VCVS||4
+VProbe||1
+VPulse||2
+VSine||2
+VSource||2
+X555||8
+XNOR 2||3
+XNOR 3||4
+XOR 2||3
+XOR 3||4
+Zener||2

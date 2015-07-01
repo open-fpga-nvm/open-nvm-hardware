@@ -1,0 +1,16 @@
+Forward Design Changes Report
+-----------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op2_v2 (PCB - Forward Design Changes Report).txt
+Report Written : Monday, April 06, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op2_v2.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 4/6/2015 12:23:43 PM
+Editing Time   : 16070 min
+Units          : inches (precision 3)
+
+The designs are the same, so no design changes to forward.
+
+
+End Of Report.

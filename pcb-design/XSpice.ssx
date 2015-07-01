@@ -1,0 +1,141 @@
+74xx73||6
+74xx139||7
+74xx164||12
+4520||14
+Amp||3
+AND 2||3
+AND 3||4
+AND 4||5
+ARB_IN_1_0_OUT_V||2
+ARB_IN_2_0_OUT_V||3
+ARB_IN_2_1_OUT_DIFF_I||6
+ARB_IN_2_1_OUT_DIFF_V||6
+ARB_IN_2_1_OUT_I||5
+ARB_IN_2_1_OUT_V||5
+ARB_IN_4_0_OUT_V||5
+ASwitch||5
+AtoD||2
+Buf||4
+Buffer (tri-state)||3
+Capacitor||2
+CCCS||4
+CCVS||4
+Condition||1
+D Latch primative||6
+DigDelay||2
+DigFreqDiv||2
+DigGround||1
+DigInit||1
+DigPullDown||1
+DigPullUp||1
+DigPulse||1
+DigPulseOpen||1
+DigSource||4
+DigVCC||1
+Diode||2
+DProbe||2
+DtoA||2
+DType||6
+DType primative||6
+DType Simple||4
+Flip-Flop||7
+Flip-Flop (Toggle)||6
+FreqDiv||2
+Ground||1
+IGBT||3
+Inductor||2
+Inductor NL||2
+Instrument Amp 7||7
+Instrument Amp 8||8
+INVERTER||2
+Inverter (Schmitt)||2
+IProbe||1
+ISource||2
+Laplace (DiffI DiffI)||4
+Laplace (DiffI DiffV)||4
+Laplace (DiffI I)||3
+Laplace (DiffI V)||3
+Laplace (DiffV DiffI)||4
+Laplace (DiffV DiffV)||4
+Laplace (DiffV I)||3
+Laplace (DiffV V)||3
+Laplace (I DiffI)||3
+Laplace (I DiffV)||3
+Laplace (I I)||2
+Laplace (I V)||2
+Laplace (V DiffI)||3
+Laplace (V DiffV)||3
+Laplace (V I)||2
+Laplace (V V)||2
+Laplace Y||2
+Laplace Z||2
+Module Port||1
+N-channel||3
+N-channel 3 bulk to VSS||4
+N-channel 4||4
+N-Channel Dual Gate||4
+N-Channel Therm 5||5
+NAND 2||3
+NAND 3||4
+NAND 4||5
+ND1776||13
+NMOS3||3
+NOR 2||3
+NOR 3||4
+NOR 4||5
+NPN||3
+NPNdarl||3
+Opamp||5
+Opamp_7||7
+Opamp_c||6
+Opamp_d_o_l||8
+Opamp_e||6
+Opamp_g||6
+Opamp_OS||7
+OPT101||6
+OPT102||6
+OR 2||3
+OR 3||4
+OR 4||5
+P-channel||3
+P-channel 3 bulk to VDD||4
+P-channel 4||4
+P-Channel Therm 5||5
+PMOS3||3
+PNP||3
+PNPdarl||3
+Potentiometer||3
+powerconv||6
+Random||2
+Reg||3
+Reg 6||6
+Reg Adj||3
+Reg BA||5
+Reg SA||5
+Reg SB||5
+Resistor Box||2
+Resistor Z||2
+Schottky||2
+Schottky dual||4
+SmallTerm||1
+Switch||4
+Terminal||1
+Therm Network||2
+Trans Supress||2
+Transformer_1_1||4
+Transformer_1_2||6
+Transformer_2_2||8
+Transformer_3_3||12
+Transmission Line||4
+UAF42||14
+UC3842||8
+Varicap||2
+VCCS||4
+VCVS||4
+VProbe||1
+VPulse||2
+VSine||2
+VSource||2
+XNOR 2||3
+XOR 2||3
+Zener||2

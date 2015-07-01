@@ -1,0 +1,119 @@
+PCB Configuration Report
+------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1 (PCB - PCB Configuration Report).txt
+Report Written : Monday, March 16, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 3/16/2015 8:24:04 PM
+Editing Time   : 15785 min
+Units          : inches (precision 3)
+
+PCB Artist version:       3.0
+
+
+Design Requirement
+------------------
+Design Requirement Name:  2 Layer Standard
+
+
+Board
+-----
+Board Size:               3.764 X 3.638
+CNC Route Points:         8
+
+
+Layers
+------
+Number of Layers:         2
+Powerplanes:              No
+Solder Mask:              Yes
+    Top Side:             Yes
+    Bottom Side:          Yes
+    Type:                 LPI
+    Color:                Green
+Silkscreen:               Yes
+    Top Side:             Yes
+    Bottom Side:          No
+    Color:                White
+
+
+Board Parameters
+----------------
+Material:                 FR4
+Material Thickness:       0.062 inches
+Finish Plating:           Lead Free Solder
+Copper Weight:            1 oz
+
+Tab Routes:               No
+V-Scoring:                No
+Plated Slots:             No
+Plated Edges:             No
+Dielectric:               No
+Impedance:                No
+Counter Sinks:            No
+Counter Bores:            No
+
+Min Track Width (Outer):  0.006 inches
+Min Track Width (Inner):  0.010 inches
+Min Spacing (Outer):      0.010 inches
+Min Spacing (Inner):      0.010 inches
+Minimum Hole Size:        0.015 inches
+Beveled Gold Fingers:     None
+
+
+Additional Requirements
+-----------------------
+Electrical Test:          No
+Component Assembly:       No
+        Unique Component Parts: 5
+        Through Hole:     5
+        Fine Pitch:       0
+        BGA/Leadless:     0
+        Other SMT:        1
+
+Special Requirements: 
+
+                          Student
+
+
+
+Production
+----------
+Board Part Number:        utd_camelab_DB_NTLC_001
+Revision Number:          001
+Production:               Prototype
+Turnaround Time:          1 Week
+Quantity:                 1
+Array:                    No
+
+Board Unit Price:         $275.33
+Board Subtotal Price:     $275.33
+Test Price:               $0.00
+
+Total Price:              $275.33
+
+
+Design Data
+-----------
+Number of Tracks:         133
+Minimum Outer Track Width Used:0.006 inches
+Maximum Outer Track Width Used: 0.050 inches
+
+Number of Holes:          179
+Number of Hole Sizes:     7
+Minimum Hole Size Used:   0.016 inches
+Maximum Hole Size Used:   0.073 inches
+
+Number of Top SMT Pads:   22
+Number of Bottom SMT Pads: 0
+Minimum SMT Pad Pitch:    0.050 inches
+
+Minimum Track (Outer):    0.006 inches
+
+Fiducials:                No
+
+Number of Design Errors:  0
+
+End Of Report.

@@ -1,0 +1,13 @@
+======================
+Open-NVM Hardware data
+======================
+
+pcb-design
+    - Open-NVM PCB Design Schematics; created with PCB Artist
+
+pcb-design-pdf
+pcb-design-img
+    - PCB Design output and pin-outs with other file formats
+
+pcb-order-list
+    - (For reference) What we've ordered and invoices of PCB & Component

@@ -1,0 +1,61 @@
+Design Rule Check Report
+------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\MRAM_daughter_board_v1 (PCB - Design Rule Check Report).txt
+Report Written : Saturday, April 04, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\MRAM_daughter_board_v1.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 4/4/2015 2:07:53 AM
+Editing Time   : 16595 min
+Units          : mm (precision 4)
+
+
+Results
+=======
+
+
+No errors found
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks         No
+Pads and Vias  No
+Shapes         No
+Text           No
+Board          No
+Drills         No
+Components     No
+
+
+Manufacturing
+
+==============
+
+Min Drill Hole Size   No
+Min Track Width       No
+Min Annular Ring      No
+Copper Text In Board  No
+Mirrored Text         No
+Routing Areas         No
+Drill Breakout        No
+
+
+Nets
+
+=====
+
+Net Completion                No
+Dangling Tracks               No
+Net Track Length Differences  No
+
+
+
+End Of Report.

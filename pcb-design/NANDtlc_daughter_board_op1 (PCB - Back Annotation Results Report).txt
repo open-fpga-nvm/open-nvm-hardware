@@ -1,0 +1,18 @@
+Back Annotation Results Report
+------------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1 (PCB - Back Annotation Results Report).txt
+Report Written : Monday, March 16, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 3/16/2015 1:09:04 PM
+Editing Time   : 15525 min
+Units          : mm (precision 4)
+
+Back Annotate renames from PCB "C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb" to Schematic "C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.sch".
+
+Error: Could not find  Net " N0228".
+
+
+End Of Report.

@@ -1,0 +1,158 @@
+AC Voltage Source||#SPICE=0||@SpiceSourceAC=1 0||@SpiceDevice=V||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+AD Bridge||#SPICE=0||@SpiceDevice=A||@SpiceModel=$$ADC||@SpiceModelParameters=in_low=0.1 in_high=0.9 rise_delay=0.1p fall_delay=0.1p||@SpiceModelType=adc_bridge||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Amplifier (subcircuit)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=SPN01N60S5_L1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Analog switch||#SPICE=0||@SpiceSubcircuit=HC4016||@SpiceDevice=X||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+AND2||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC08D||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+AND3||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC11D||@SpicePinOrder=[1 2 3] 4||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Current Source||#SPICE=0||@SpiceDevice=B||@SpiceExpression=I=expression||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=1 I=0||@SpiceTransferOutput=Single Ended Voltage||@SpiceExpression=V(N1)*2||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V2 I1 Diff I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=2 I=1||@SpiceTransferOutput=Differential Current||@SpiceExpression=(V(n1)-V(n2))*I(V1)||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V2 I1 Diff V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=2 I=1||@SpiceTransferOutput=Differential Voltage||@SpiceExpression=(V(n1)-V(n2))*I(V1)||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V2 I1 I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=2 I=1||@SpiceTransferOutput=Single Ended Current||@SpiceExpression=(V(n1)-V(n2))*I(V1)||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V2 I1 V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=2 I=1||@SpiceTransferOutput=Single Ended Voltage||@SpiceExpression=(V(n1)-V(n2))*I(V1)||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V2 V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=2 I=0||@SpiceTransferOutput=Single Ended Voltage||@SpiceExpression=V(N1)*V(N2)||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Source(V4 V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-linear Transfer||@SpiceTransfer=V=4 I=0||@SpiceTransferOutput=Single Ended Voltage||@SpiceExpression=(V(N1)-V(N2))*(V(N3)-V(N4))||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Arbitrary Voltage Source||#SPICE=0||@SpiceDevice=B||@SpiceExpression=V=expression||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Buffer||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LM6121/NS||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Capacitor||#SPICE=0||@C=1n||@SpiceDevice=C||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Capacitor (Non-Linear)||#SPICE=0||@C=1n||@SpiceDevice=X||@SpiceType=Non-Linear Capacitor||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Comparator||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LP339||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Comparator - diff out latched||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1016||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Comparator with Ground||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LP311||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Current Controlled Current Src||#SPICE=0||@SpiceGain=1||@SpiceDevice=F||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Current Controlled Voltage Src||#SPICE=0||@SpiceGain=1k||@SpiceDevice=H||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Current Probe||#SPICE=0||@SpiceProbe=Current||@SpiceProbeCurveLabel=||@SpiceParameters=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Current Pulse Generator||#SPICE=0||@SpiceDevice=I||@SpiceSourceAC=AC 1 0||@SpiceSource=Pulse||@SpiceInitValue=0||@SpicePulsedValue=5||@SpiceDelay=0||@SpiceRise=100n||@SpiceFall=100n||@SpiceWidth=5u||@SpicePeriod=10u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Current Sine Generator||#SPICE=0||@SpiceDevice=I||@SpiceSourceAC=AC 1 0||@SpiceSource=Sine||@SpiceOffset=0||@SpicePeak=1||@SpiceFrequency=1k||@SpiceDelay=||@SpiceTheta=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+D Latch (primative)||#SPICE=0||@SpiceDevice=A||@SpiceModel=d_latch||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+D-type Flip-Flop||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC74D||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+D-type Flip-Flop (primative)||#SPICE=0||@SpiceDevice=A||@SpiceModel=dtype||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+D-type Flip-Flop (simple)||#SPICE=0||@SpiceDevice=A||@SpiceModel=DTYPE||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+DA Bridge||#SPICE=0||@SpiceDevice=A||@SpiceModel=$$DAC||@SpiceModelParameters=out_low=0 out_high=1 out_undef=0.5 imput_load=20p||@SpiceModelType=dac_bridge||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+dB Probe||#SPICE=0||@SpiceProbe=dB||@SpiceProbeCurveLabel=dB||@SpiceParameters=complete=true yunit=dB axisname=db||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Differential Voltage Probe||#SPICE=0||@SpiceProbe=Differential Voltage||@SpiceParameters=nowarn = true    yunit = V||@SpiceProbeCurveLabel=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Capacitor||#SPICE=0||@Label=Dig||@SpiceCapacitance=1n||@SpiceDigital=Capacitor||@SpiceHold=1n||@SpiceInitialState=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Delay||#SPICE=0||@SpiceDevice=A||@SpiceDigital=DELAY||@SpiceDelay=1u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Frequency Divider||#SPICE=0||@SpiceDevice=A||@SpiceModelType=d_fdiv||@SpiceModel=DIV||@SpiceModelParameters=div_factor=32||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Ground||#SPICE=0||@SpiceDevice=A||@SpiceDigital=GROUND||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Initial Condition||#SPICE=0||@SpiceDevice=A||@SpiceDigital=DIGINIT||@SpiceInitialState=1||@SpiceInitialStrength=1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Pull-Down||#SPICE=0||@SpiceDevice=A||@SpiceDigital=PULLDOWN||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Pull-Up||#SPICE=0||@SpiceDevice=A||@SpiceDigital=PULLUP||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Pulse||#SPICE=0||@SpiceDevice=A||@SpiceDigital=PULSE||@SpicePeriod=1u||@SpiceWidth=500n||@SpiceDelay=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Pulse (Open Emitter)||#SPICE=0||@SpiceDevice=A||@SpiceDigital=PULSE||@SpicePeriod=1u||@SpiceWidth=500n||@SpiceDelay=0||@SpicePulseInfo=open_out||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Resistor||#SPICE=0||@Label=Dig||@SpiceDigital=Resistor||@SpiceResistance=1K||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital Source||#SPICE=0||@SpiceDevice=A||@SpiceModel=SOURCE||@SpicePinOrder=[1 2 3 4]||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Digital VCC||#SPICE=0||@SpiceDevice=A||@SpiceDigital=VCC||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Diode||#SPICE=0||@SpiceDevice=D||@SpiceModel=D1N4148||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Fixed Current Source||#SPICE=0||@SpiceSourceDC=1m||@SpiceDevice=I||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Fixed Voltage Source||#SPICE=0||@SpiceDevice=V||@SpiceSourceDC=||@SpiceSourceAC=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Frequency Divider||#SPICE=0||@SpiceDevice=A||@SpiceModel=$$FDIV||@SpiceModelParameters=div_factor=10 high_cycles=1 i_count=0||@SpiceModelType=d_fdiv||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Generic AND 4||#SPICE=0||@SpiceDevice=A||@SpiceModelType=d_and||@SpiceModel=$$Gate||@SpiceModelParameters=rise_delay=10n fall_delay=10n||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Generic NAND 4||#SPICE=0||@SpiceDevice=A||@SpiceModelType=d_nand||@SpiceModel=$$Gate||@SpiceModelParameters=rise_delay=10n fall_delay=10n||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Generic NOR 4||#SPICE=0||@SpiceDevice=A||@SpiceModelType=d_nor||@SpiceModel=$$Gate||@SpiceModelParameters=rise_delay=10n fall_delay=10n||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Generic OR 4||#SPICE=0||@SpiceDevice=A||@SpiceModelType=d_or||@SpiceModel=$$Gate||@SpiceModelParameters=rise_delay=10n fall_delay=10n||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ground||#SPICE=0||@SpiceGround=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+HC73||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC73||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+HC139||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC139||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+HC164||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC164||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+HC4520||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC4520||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ideal Inductor||#SPICE=0||@L=1u||@SpiceDevice=L||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ideal Transformer (1p 1s)||#SPICE=0||@SpiceDevice=X||@SpiceType=Ideal Transformer||@SpiceInductance=10u||@SpiceCoupling=PP=0.99 SS=0.99 PS=0.99||@SpiceWindings=P=1 S=1 S1=1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ideal Transformer (1p 2s)||#SPICE=0||@SpiceDevice=X||@SpiceType=Ideal Transformer||@SpiceInductance=10u||@SpiceCoupling=PP=0.99 SS=0.99 PS=0.99||@SpiceWindings=P=1 S=2  S1=1 S2=1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ideal Transformer (2p 2s)||#SPICE=0||@SpiceDevice=X||@SpiceType=Ideal Transformer||@SpiceInductance=10u||@SpiceCoupling=PP=0.99 SS=0.99 PS=0.99||@SpiceWindings=P=2 S=2  P2=1 S1=1 S2=1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Ideal Transformer (3p 3s)||#SPICE=0||@SpiceDevice=X||@SpiceType=Ideal Transformer||@SpiceInductance=10u||@SpiceCoupling=PP=0.99 SS=0.99 PS=0.99||@SpiceWindings=P=3 S=3  P2=1 P3=1 S1=1 S2=1 S3=1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+IGBT||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=IRG4BC10U||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Inductor (Non-Linear)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-Linear Inductor||@L=1u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Initial Condition||#SPICE=0||@SpiceInitialCondition=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Instrumentation Amp (7 pin)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=INA105||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Instrumentation Amp (8 pin)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=INA101||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Inverter||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC04D||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffI DiffI)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Current||@SpiceTransferOutput=Differential Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffI DiffV)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Current||@SpiceTransferOutput=Differential Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffI I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Current||@SpiceTransferOutput=Single Ended Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffI V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Current||@SpiceTransferOutput=Single Ended Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffV DiffI)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Voltage||@SpiceTransferOutput=Differential Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffV DiffV)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Voltage||@SpiceTransferOutput=Differential Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffV I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Voltage||@SpiceTransferOutput=Single Ended Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (DiffV V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Differential Voltage||@SpiceTransferOutput=Single Ended Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (I DiffI)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Current||@SpiceTransferOutput=Differential Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (I DiffV)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Current||@SpiceTransferOutput=Differential Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (I I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Current||@SpiceTransferOutput=Single Ended Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (I V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Current||@SpiceTransferOutput=Single Ended Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (V DiffI)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Voltage||@SpiceTransferOutput=Differential Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (V DiffV)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Voltage||@SpiceTransferOutput=Differential Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (V I)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Voltage||@SpiceTransferOutput=Single Ended Current||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Laplace Transfer (V V)||#SPICE=0||@SpiceDevice=X||@SpiceType=Laplace Transfer||@SpiceTransferInput=Single Ended Voltage||@SpiceTransferOutput=Single Ended Voltage||@SpiceModelParameters=NUM_COEFF=[] DEN_COEFF=[] DENORMILAZED_FREQ=1000||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+LS73||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LS73||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Module Port||#SPICE=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+N-channel 3 term bulk to VSS||#SPICE=0||@SpiceDevice=M||@SpiceModel=N1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+N-Channel dual gate||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=BF904||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+N-Channel JFET||#SPICE=0||@SpiceDevice=J||@SpiceModel=J2N3819||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+N-Channel therm 5 pin||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=BSO302SN||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NAND2||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC00D||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NAND3||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC10D||@SpicePinOrder=[1 2 3] 4||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NAND4||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC20||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NMOS (3 term)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=IRF530||@SpicePinOrder=d g s||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Nmos - 4 term IC||#SPICE=0||@SpiceDevice=M||@SpiceModel=N1||@SpiceParameters=L=1u W=1u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Nodeset||#SPICE=0||@SpiceNodeset=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NOR2||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC02D||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NOR3||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC27D||@SpicePinOrder=[1 2 3] 4||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+NOR4||#SPICE=0||@SpiceDevice=A||@SpiceModel=4002||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Npn||#SPICE=0||@SpiceModel=Q2N2222||@SpiceDevice=Q||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Npn Darlington||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=ZTX605||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=TL072||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp (6 term with comp)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1128||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp (6 term with enable)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1219||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp (6 term)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LMC6681A/NS||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp (7 terminal)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LH2108||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Opamp (with Output Supply)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=OPA640X||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+OPT101||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=OPT101||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+OPT102||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=OPT201KP||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+OR2||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC32D||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+OR3||#SPICE=0||@SpiceDevice=A||@SpiceModel=4075||@SpicePinOrder=[1 2 3] 4||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+OR4||#SPICE=0||@SpiceDevice=A||@SpiceModel=4072||@SpicePinOrder=[1 2 3 4] 5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+P-Channel 3 term bulk to VDD||#SPICE=0||@SpiceDevice=M||@SpiceModel=P1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+P-Channel JFET||#SPICE=0||@SpiceDevice=J||@SpiceModel=J175||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+P-Channel therm 5 pin||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=BSP316P||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Phase Probe||#SPICE=0||@SpiceProbe=Phase||@SpiceProbeCurveLabel=Phase||@SpiceParameters=complete=true yunit=degrees axisname=ph||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+PMOS (3 term)||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=RFD15P05||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Pmos - 4 term IC||#SPICE=0||@SpiceDevice=M||@SpiceModel=P1||@SpiceParameters=L=1u W=1u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Pnp||#SPICE=0||@SpiceModel=Q2N2904||@SpiceDevice=Q||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Pnp Darlington||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=ZTX705||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Potentiometer||#SPICE=0||@SpiceDevice=X||@SpiceType=Potentiometer||@SpiceResistance=10k||@SpiceWiperPosition=0.5||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Power Conv||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=powerconv||@SpiceParameters=eff={eff}||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Power Supply||#SPICE=0||@SpiceSourceDC=5V||@SpiceDevice=V||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+pseudo_random||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=$$pseudo_random||@SpicePinOrder=CLOCK RAND_OUT||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Pulse Generator||#SPICE=0||@SpiceDevice=V||@SpiceSourceAC=AC 1 0||@SpiceSource=Pulse||@SpiceInitValue=0||@SpicePulsedValue=5||@SpiceDelay=0||@SpiceRise=100n||@SpiceFall=100n||@SpiceWidth=5u||@SpicePeriod=10u||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - 3 term adjustable||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1083||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - 3 terminal||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LM317-R||@SpicePinOrder=2,3,1||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - 6 terminal||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1762||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - bypass + adj||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1761BYP||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - shutdown + bypass||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1761||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Regulator - shutdown and adj||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=LT1121||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Resistor (Box Shape)||#SPICE=0||@R=1K||@SpiceDevice=R||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Resistor (Non-Linear)||#SPICE=0||@SpiceDevice=X||@SpiceType=Non-Linear Resistor||@SpiceResistance=1K||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Resistor (Z shape)||#SPICE=0||@R=1K||@SpiceDevice=R||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Schmitt Inverter||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC14||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Schottky||#SPICE=0||@SpiceDevice=D||@SpiceModel=BAT54/PS||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Schottky - dual||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=BAT74||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Sine Generator||#SPICE=0||@SpiceDevice=V||@SpiceSourceAC=AC 1 0||@SpiceSource=Sine||@SpiceOffset=0||@SpicePeak=1||@SpiceFrequency=1k||@SpiceDelay=||@SpiceTheta=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Terminal||#SPICE=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Terminal (Small)||#SPICE=0||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Thermal Network - 2 term||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=irf2804t||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Toggle Flip-Flop||#SPICE=0||@SpiceDevice=A||@SpiceModel=Toggle||@SpiceModelType=d_tff||@SpiceModelParameters=clk_delay=200n||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Transient Supressor||#SPICE=0||@SpiceDevice=X||@SpiceValue=Model||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Transmission Line (Lossless)||#SPICE=0||@SpiceImpedance=50||@SpiceDelay=50n||@SpiceDevice=T||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Transmission Line (Lossy)||#SPICE=0||@SpiceModel=LTRA_MODEL||@SpiceDevice=O||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Tri-state buffer||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=HC125||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+UAF42||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=UAF42||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+UC3842||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=UC3842||@SpicePinOrder=Vout Osc Vp Comp Sense Vfb Ref Gnd||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Varicap||#SPICE=0||@SpiceDevice=D||@SpiceModel=BB545||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Voltage Controlled Current Src||#SPICE=0||@SpiceGain=1||@SpiceDevice=G||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Voltage Controlled Switch||#SPICE=0||@SpiceDevice=X||@SpiceParameters=RON=1  ROFF=1Meg  VON=3  VOFF=2||@SpiceSubcircuit=gen_switch||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Voltage Controlled Voltage Src||#SPICE=0||@SpiceGain=1||@SpiceDevice=E||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Voltage Probe||#SPICE=0||@SpiceProbe=Voltage||@SpiceProbeCurveLabel=||@SpiceParameters=||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Voltage Switch (Subcircuit)||#SPICE=0||@SpiceDevice=X||@SpiceParameters=RON=1  ROFF=1Meg  VON=3  VOFF=2||@SpiceSubcircuit=gen_switch||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+XNOR2||#SPICE=0||@SpiceDevice=A||@SpiceModel=4077||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+XOR2||#SPICE=0||@SpiceDevice=A||@SpiceModel=HC86D||@SpicePinOrder=[1 2] 3||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+Zener Diode||#SPICE=0||@SpiceDevice=X||@SpiceSubcircuit=BZX79-4V7||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=

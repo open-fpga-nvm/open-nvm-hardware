@@ -1,0 +1,61 @@
+Design Rule Check Report
+------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1 (PCB - Design Rule Check Report).txt
+Report Written : Monday, March 16, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 3/16/2015 2:04:45 PM
+Editing Time   : 15583 min
+Units          : mm (precision 4)
+
+
+Results
+=======
+
+
+No errors found
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks         Yes
+Pads and Vias  Yes
+Shapes         Yes
+Text           Yes
+Board          Yes
+Drills         Yes
+Components     No
+
+
+Manufacturing
+
+==============
+
+Min Drill Hole Size   Yes
+Min Track Width       Yes
+Min Annular Ring      Yes
+Copper Text In Board  Yes
+Mirrored Text         Yes
+Routing Areas         Yes
+Drill Breakout        Yes
+
+
+Nets
+
+=====
+
+Net Completion                Yes
+Dangling Tracks               Yes
+Net Track Length Differences  No
+
+
+
+End Of Report.

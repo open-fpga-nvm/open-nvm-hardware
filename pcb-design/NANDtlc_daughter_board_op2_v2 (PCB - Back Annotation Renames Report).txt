@@ -1,0 +1,17 @@
+Back Annotation Renames Report
+------------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op2_v2 (PCB - Back Annotation Renames Report).txt
+Report Written : Monday, April 06, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op2_v2.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 4/6/2015 10:50:48 AM
+Editing Time   : 16057 min
+Units          : inches (precision 3)
+
+Outstanding PCB renames awaiting back annotation to the Schematics design.
+
+Rename Net from "N0228" to "N0VCC_DT".
+
+End Of Report.

@@ -1,0 +1,20 @@
+Design Consistency Status Report
+--------------------------------
+
+Report File    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1 (PCB - Design Consistency Status Report).txt
+Report Written : Monday, March 16, 2015
+Design Path    : C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb
+Design Title   : 
+Created        : 12/12/2014 9:25:34 AM
+Last Saved     : 3/16/2015 2:04:45 PM
+Editing Time   : 15583 min
+Units          : mm (precision 4)
+
+
+Checking integrity of Schematic "C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.sch" with PCB "C:\Users\Public\Documents\PCB Artist\Library\NANDtlc_daughter_board_op1.pcb"
+====================================================================================================================================================================================================
+
+The designs are the same.
+
+
+End Of Report.
